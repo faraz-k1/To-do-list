@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.icon-icons.com/icons2/7/PNG/128/list_992.png"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div id="box">
+        <div class="hdng">
+          <!-- <i class="far fa-list-alt"></i> -->
+          <h1>To-Do List</h1>
+        </div>
+        <div id="element1">
+          <div id="new-todo">
+            <input
+              type="text"
+              placeholder="Write Your Plans..."
+              id="item"
+              autofocus
+            />
+            <button id="submitbtn">SUBMIT</button>
+          </div>
+          <div id="element2">
+            <ul id="list-todo">
+              <!-- <li>Create List
+              <i class="fas fa-trash-alt" id="deletebtn"></i>
+            </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <p>
+        Made By
+        <a href="https://github.com/faraz-k1" target="_blank">Faraz Khalid</a>
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

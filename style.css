@@ -1,0 +1,219 @@
+* {
+  /* font-family: sans-serif; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1511871893393-82e9c16b81e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  height: 100%;
+  min-width: 60%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  /* position: absolute; */
+  /* background-color: #884a39; */
+}
+
+#box {
+  /* background-color: rgba(173, 15, 15, 0.795); */
+  min-width: 100%;
+  /* max-width: 50%; */
+  height: 80%;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  outline: 0;
+  border: 0;
+  position: relative;
+  /* box-shadow: 0 0 10px #09232d; */
+  /* opacity: 0.1; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.hdng {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-width: 60%;
+  padding: 10px;
+  /* background-color: #f8f1f1; */
+}
+
+h1 {
+  position: relative;
+  font-size: 4rem;
+  color: #ff9f38;
+  justify-content: center;
+  text-align: justify;
+  min-width: 50%;
+  /* background-color: #fff; */
+  display: flex;
+  /* margin-left: 4rem; */
+  /* padding-bottom: 2rem; */
+  /* align-items: center; */
+  /* width: 100%; */
+  /* text-shadow: 200px grey; */
+}
+/* .fa-list-alt {
+  position: absolute;
+  color: #09232d;
+  font-size: 3rem;
+  left: 50px;
+} */
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+#element1 {
+  padding: 0.5rem;
+  /* min-height: 80vh; */
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  /* align-items: center; */
+  /* background-color: blanchedalmond; */
+  /* justify-content: center; */
+}
+
+#new-todo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  margin-bottom: 2rem;
+  /* height: 200px; */
+  /* padding: 1%; */
+  /* background-color: #bbecff; */
+}
+
+#item {
+  font-weight: bold;
+  padding: 0.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  min-height: 3rem;
+  min-width: 80%;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 0 4px rgb(0, 0, 0);
+  color: #000000;
+  display: block;
+  opacity: 0.9;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0);
+
+  /* background-color: transparent; */
+  /* position: relative; */
+}
+
+#submitbtn {
+  background-blend-mode: darken;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f8f1f1;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 1.5rem;
+  /* border-radius: 1rem; */
+  border-bottom-right-radius: 1.5rem;
+  height: 3.2rem;
+  width: 20%;
+  right: 7.5%;
+  padding: 0.4rem;
+  box-shadow: 0 0 6px #000000;
+  background-color: #0f6292;
+  opacity: 0.8;
+  /* margin-left: 0.3rem; */
+  /* position: absolute; */
+}
+
+#element2 {
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+  /* background-color: aliceblue; */
+}
+
+#list-todo {
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  /* display: flex; */
+  /* margin-top: 2rem; */
+  /* padding: 1%; */
+  /* background-color: rgb(0, 136, 255); */
+}
+
+#list-todo li {
+  position: relative;
+  list-style: none;
+  max-width: 100%;
+  min-height: 3rem;
+  /* font-size: 1.2rem; */
+  font-weight: bold;
+  padding: 2%;
+  padding-top: 1rem;
+  color: #fff;
+  background-color: #ffa927;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  /* opacity: 0.8; */
+  /* display: block; */
+}
+
+/* #list-todo li .btn-delete {
+  position: absolute;
+  color: #fdcb6e !important;
+  top: 2%;
+  right: 2%;
+  width: 2rem;
+  height: 2rem;
+
+} */
+
+#deletebtn {
+  position: absolute;
+  color: #f8f1f1 !important;
+  right: 15px;
+  top: 15px;
+  align-items: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffb62dce;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2px;
+  margin-top: 2rem;
+}
